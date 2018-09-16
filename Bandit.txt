@@ -1,9 +1,9 @@
-Level 1
+Level 0
 
 ssh -p2220 bandit0@bandit.labs.overthewire.org
 Password = bandit0
 
-Level 2
+Level 1
 
 Use ls to show the readme file
 Use cat to open the readme file
@@ -11,20 +11,20 @@ Use cat to open the readme file
 cat readme.
 Ans is boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 
-Level 3
+Level 2
 
 Use ls to show the file "-".
 Using cat - won't work. So we use cat ./- 
 Answer is CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
 
-Level 4
+Level 3
 
 Use ls to show file "spaces in this filename"
 Using cat with "" to open file
 cat "spaces in this filename"
 Answer is UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 
-Level 5 
+Level 4 
 
 Use ls to show the directory inhere
 To change directory use cd inhere
@@ -33,7 +33,7 @@ To see the data type of each file , use file ./-*
 use cat to read -file07
 Answer is koReBOKuIDDepwhWk7jZC0RTdopnAYKh
 
-Level 6
+Level 5
 
 Use ls to show directory inhere
 Change directory using cd inhere
@@ -43,26 +43,26 @@ Then, use find ./ -size 1033c
 It's gonna give file maybehere07/.file2 as answer
 So we use cat ./maybehere/.file2 to open and answer is DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 
-Level 7
+Level 6
 
 Use find / -user bandit7 -group bandit6 
 Look for /var/lib/dpkg/info/bandit7.password among the other files
 Use cat /var/lib/dpkg/info/bandit7.password to open it
 Answer is HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 
-Level 8
+Level 7
 
 Use ls to show file data.txt
 Use grep millionth data.txt.
 Answer is  cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 
-Level 9
+Level 8
 
 Use ls to show file data.txt
 To find the unique line , use cat data.txt | sort | uniq -u
 Answer is UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
 
-Level 10
+Level 9
 
 Use ls to show file data.txt
 All data in file is encrypted . To make it readable use strings data.txt | grep '='
